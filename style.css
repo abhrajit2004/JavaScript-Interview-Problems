@@ -1,0 +1,32 @@
+html{
+    scroll-behavior: smooth;
+  }
+  body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h1{
+    background-color: rgb(218, 123, 123);
+  }
+  #container {
+    min-width: 90vw;
+    background-color: wheat;
+    border: 2px solid black;
+    min-height: 100vh;
+  }
+  #box {
+    display: none;
+    height: 54px;
+    width: 53px;
+    border-radius: 33px;
+    background-color: green;
+    position: absolute;
+    right: 22px;
+    padding: 4px 6px;
+    margin: -52px 0;
+    box-shadow: 0px 6px 3px black;
+    cursor: pointer;
+  }
+  img {
+    width: 52px;
+    filter: invert(1);
+  }
